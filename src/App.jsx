@@ -1,0 +1,100 @@
+import React from "react";
+import ReactCard from "./Components/ReactCard";
+
+const App = () => {
+  let pricetag = [
+    {
+      title: "FREE",
+      price: "0",
+      usericon: "ri-check-line",
+      user: "Single User",
+      userEnable: "text-dark",
+      storageIcon: "ri-check-line",
+      storage: "50GB Storage",
+      storageEnable: "text-dark",
+      publicIcon: "ri-check-line",
+      public: "Unlimited Public Projects",
+      publicEnable: "text-dark",
+      accessIcon: "ri-check-line",
+      access: "Community Access",
+      accessEnable: "text-dark",
+      privateIcon: "ri-close-line",
+      private: "Unlimited Private Projects",
+      privateEnable: "text-muted",
+      supportIcon: "ri-close-line",
+      support: "Dedicated Phone support",
+      supportEnable: "text-muted",
+      domainIcon: "ri-close-line",
+      domain: "Free Subdomain",
+      domainEnable: "text-muted",
+      reportsIcon: "ri-close-line",
+      reports: "Monthly Status Reports",
+      reportsEnable: "text-muted",
+    },
+    {
+      title: "PLUS",
+      price: "9",
+      usericon: "ri-check-line",
+      user: "5 Users",
+      userEnable: "text-dark",
+      storageIcon: "ri-check-line",
+      storage: "50GB Storage",
+      storageEnable: "text-dark",
+      publicIcon: "ri-check-line",
+      public: "Unlimited Public Projects",
+      publicEnable: "text-dark",
+      accessIcon: "ri-check-line",
+      access: "Community Access",
+      accessEnable: "text-dark",
+      privateIcon: "ri-check-line",
+      private: "Unlimited Private Projects",
+      privateEnable: "text-dark",
+      supportIcon: "ri-check-line",
+      support: "Dedicated Phone support",
+      supportEnable: "text-dark",
+      domainIcon: "ri-check-line",
+      domain: "Free Subdomain",
+      domainEnable: "text-dark",
+      reportsIcon: "ri-close-line",
+      reports: "Monthly Status Reports",
+      reportsEnable: "text-muted",
+    },
+    {
+      title: "PRO",
+      price: "49",
+      usericon: "ri-check-line",
+      user: "Unlimited Users",
+      userEnable: "text-dark",
+      storageIcon: "ri-check-line",
+      storage: "50GB Storage",
+      storageEnable: "text-dark",
+      publicIcon: "ri-check-line",
+      public: "Unlimited Public Projects",
+      publicEnable: "text-dark",
+      accessIcon: "ri-check-line",
+      access: "Community Access",
+      accessEnable: "text-dark",
+      privateIcon: "ri-check-line",
+      private: "Unlimited Private Projects",
+      privateEnable: "text-dark",
+      supportIcon: "ri-check-line",
+      support: "Dedicated Phone support",
+      supportEnable: "text-dark",
+      domainIcon: "ri-check-line",
+      domain: "Free Subdomain",
+      domainEnable: "text-dark",
+      reportsIcon: "ri-check-line",
+      reports: "Monthly Status Reports",
+      reportsEnable: "text-dark",
+    },
+  ];
+
+  return (
+    <>
+      <h2 className="text-center m-4">REACT PRICE CARD TASK</h2>
+      <ReactCard pricetag={pricetag} />
+    </>
+  );
+};
+
+export default App;
