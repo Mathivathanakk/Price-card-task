@@ -16,17 +16,17 @@ const ReactCard = ({pricetag}) => {
                       {/* price */}
                       <div className="card-title text-center"><h1>${ele.price}/month</h1></div>
                       <hr/>
-                      {/* list offer */}
-                      <ul className="list" type="none">
-                        <li className="list-item "><span className={ele.userEnable}><i className={ele.usericon}></i>{ele.user}</span></li>
-                        <li className="list-item "><span className={ele.storageEnable}><i className={ele.storageIcon}></i>{ele.storage}</span></li>
-                        <li className="list-item "><span className={ele.publicEnable}><i className={ele.publicIcon}></i>{ele.public}</span></li>
-                        <li className="list-item "><span className={ele.accessEnable}><i className={ele.accessIcon}></i>{ele.access}</span></li>
-                        <li className="list-item"><span className={ele.privateEnable}><i className={ele.privateIcon}></i>{ele.private}</span></li>
-                        <li className="list-item"><span className={ele.supportEnable}><i className={ele.supportIcon}></i>{ele.support}</span></li>
-                        <li className="list-item"><span className={ele.domainEnable}><i className={ele.domainIcon}></i>{ele.domain}</span></li>
-                        <li className="list-item"><span className={ele.reportsEnable}><i className={ele.reportsIcon}></i>{ele.reports}</span></li>
-                      </ul>
+                      {/* offer */}
+                      <div class="main">
+                        < p><span className={ele.userEnable}><i className={ele.usericon}></i>{ele.user}</span></p>
+                        <p ><span className={ele.storageEnable}><i className={ele.storageIcon}></i>{ele.storage}</span></p>
+                        <p><span className={ele.publicEnable}><i className={ele.publicIcon}></i>{ele.public}</span></p>
+                        <p ><span className={ele.accessEnable}><i className={ele.accessIcon}></i>{ele.access}</span></p>
+                        <p ><span className={ele.privateEnable}><i className={ele.privateIcon}></i>{ele.private}</span></p>
+                        <p ><span className={ele.supportEnable}><i className={ele.supportIcon}></i>{ele.support}</span></p>
+                        <p ><span className={ele.domainEnable}><i className={ele.domainIcon}></i>{ele.domain}</span></p>
+                        <p><span className={ele.reportsEnable}><i className={ele.reportsIcon}></i>{ele.reports}</span></p>
+                      </div>
                       {/* button */}
                       <div className='d-grid'>
                       <button className="btn text-uppercase"type="button">Button</button>
